@@ -1,0 +1,29 @@
+$main-color: #E15252;
+
+// fonts
+$font-main: 'Poppins', sans-serif;
+$font-size-base: 14px;
+$font-size-medium: 18px;
+$font-size-large: 64px;
+
+// breakpoints
+$desktop: 1200px;
+$laptop: 992px;
+$tablet: 768px;
+$mobile: 576px;
+
+@mixin desktop {
+  @media (max-width: $desktop) { @content; }
+}
+
+@mixin laptop {
+  @media (max-width: $laptop) { @content; }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) { @content; }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) { @content; }
+}

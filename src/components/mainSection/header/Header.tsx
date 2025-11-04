@@ -1,6 +1,6 @@
-import logo from "../../assets/icons/logo.svg";
-import title from "../../assets/images/round_rock_header.svg";
-import subtitle from "../../assets/images/bicycle_repair_subheader.svg";
+import logo from "@/assets/icons/logo.svg";
+import title from "@/assets/images/round_rock_header.svg";
+import subtitle from "@/assets/images/bicycle_repair_subheader.svg";
 
 import "./Header.scss";
 

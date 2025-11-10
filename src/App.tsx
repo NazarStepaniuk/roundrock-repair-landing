@@ -1,11 +1,11 @@
-import MainSection from "./components/mainSection/MainSection"
-import Services from "./components/servises/Services"
+import MainSection from "./components/mainSection/MainSection";
+import ServicesSection from "./components/servisesSection/ServicesSection";
 
 function App() {
     return (
         <>
             <MainSection/>
-            <Services/>
+            <ServicesSection/>
         </>
     )
 }

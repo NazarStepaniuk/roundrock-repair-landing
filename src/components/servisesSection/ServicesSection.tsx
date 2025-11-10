@@ -39,7 +39,7 @@ const Services = () =>{
 
 
     return (
-        <div className="services">
+        <section className="services">
             <div className="container">
                 <div className="services__header">
                     <h2 className="services__title">Services for you</h2>
@@ -53,7 +53,7 @@ const Services = () =>{
                 </div>
                 <div className="services__wrapper"><a href="#" className="btn services__btn">Get discount 10%</a></div>
             </div>
-        </div>
+        </section>
     )
 }
 

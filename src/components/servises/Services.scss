@@ -24,4 +24,22 @@
         color: $main-color;
         margin-top: 10px;
     }
+
+    &__list{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 65px;
+        justify-content: center;
+        align-items: stretch; 
+    }
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn{
+        margin-top: 50px;
+    }
 }

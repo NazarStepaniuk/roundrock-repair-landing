@@ -1,4 +1,4 @@
-import "./Services.scss";
+import "./ServicesSection.scss";
 
 import brakeAdjustment from "@/assets/images/services/brake_adjustment.png";
 import fullInspection from "@/assets/images/services/full_inspection.png";

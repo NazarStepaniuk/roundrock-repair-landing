@@ -14,7 +14,7 @@ const AboutSection = () =>{
                         <p className="about__name">Round Rock</p>
                         <div className="about__divider"></div>
                         <p className="about__text">Started as a small garage project, Round Rock Bicycle Repair has become a trusted workshop serving cyclists across the city. We combine technical skill with a deep passion for bikes — from everyday commuters to high-end racing models. Our mission is simple: to keep every bike in perfect shape and every rider safe on the road. From tune-ups and brake adjustments to full restorations, we treat each repair with care and precision. We believe every bike deserves a second life — and every rider deserves a smooth, effortless ride.</p>
-                        <a href="#" className="btn">Get discount 10%</a>
+                        <a href="#contact" className="btn">Get discount 10%</a>
                     </div>
                 </div>
             </div>

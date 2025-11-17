@@ -8,7 +8,7 @@ import mapsSrc from "@/assets/icons/maps.svg";
 
 const ContactSection = () =>{
     return(
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="container">
                 <div className="contact__wrapper">
                     <h2 className="contact__title">Contact Us</h2>

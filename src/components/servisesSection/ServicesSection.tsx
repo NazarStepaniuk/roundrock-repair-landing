@@ -51,7 +51,7 @@ const Services = () =>{
                                                              title={service.title} text={service.text} key={id}/>)
                     }
                 </div>
-                <div className="services__wrapper"><a href="#" className="btn services__btn">Get discount 10%</a></div>
+                <div className="services__wrapper"><a href="#contact" className="btn services__btn">Get discount 10%</a></div>
             </div>
         </section>
     )

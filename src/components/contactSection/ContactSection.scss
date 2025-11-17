@@ -1,0 +1,87 @@
+.contact{
+    background-image: url('@/assets/images/contact_bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__wrapper{
+        padding: 100px 110px 140px;
+        background-color: $main-color;
+        border-radius: 0px 0px 50px 50px;
+    }
+
+    &__title{
+        text-align: center;
+        color: #fff;
+        line-height: 77px;
+    }
+
+    &__subtitle{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 100%;
+    }
+
+    &__content{
+        display: flex;
+        margin-top: 50px;
+        gap: 100px;
+    }
+
+    &__form{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
+    }
+
+    &__input{
+        padding: 0 25px;
+        width: 100%;
+        height: 56px;
+        outline: none;
+        border: 0;
+        border-radius: 61px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+    
+    &__btn{
+        width: 168px;
+        height: 56px;
+        border-radius: 61px;
+        border: 3px solid #fff;
+        background-color: $main-color;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color:#fff;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+
+        &-item{
+            display: flex;
+            align-items: center;
+            margin-top: 37px;
+            text-decoration: none;
+
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 20px;
+            }
+
+            span{
+                color: #fff;
+                line-height: 17px;
+            }
+        }
+    }
+}
